@@ -26,7 +26,7 @@ After=network.target
 [Service]
 Type=forking
 
-Environment=JRE_HOME=/opt/java/jre1.8.0_212
+Environment=JRE_HOME=/usr/bin/java
 Environment=CATALINA_PID=/opt/tomcat/temp/tomcat.pid
 Environment=CATALINA_HOME=/opt/tomcat
 Environment=CATALINA_BASE=/opt/tomcat
